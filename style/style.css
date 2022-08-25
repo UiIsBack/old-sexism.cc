@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 30px #ffffff;
+}
+
+body {
+    background: rgb(0, 131, 199);
+    background: linear-gradient(90deg, rgba(0, 131, 199, 1) 0%, rgba(97, 9, 121, 1) 37%, rgba(255, 0, 207, 1) 100%);
+    height: 100%;
+    overflow: hidden
+}
+
+Main .socials {
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+i:hover {
+    transform: scale(1.1);
+}
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+
+.socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+
+.socialIcons li i {
+    margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+}
+
+.socialIcons .tiktok {
+    background-color: #000000;
+    box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .telegram {
+    background-color: #0044ff;
+    box-shadow: 0 0 16px #22b5c9;
+}
+
+.socialIcons .discord {
+    background-color: #9500f8;
+    box-shadow: 0 0 16px #9500f8;
+}
+
+.socialIcons .github {
+    background-color: #686868;
+    box-shadow: 0 0 16px #000000;
+}
+
+button {
+    background-color: transparent;
+    height: 40px;
+    text-align: center;
+    border-radius: 500px;
+    box-sizing: border-box;
+}
+
+button span {
+    max-width: 0;
+    -webkit-transition: max-width 1s;
+    transition: max-width 1s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+button:hover span {
+    max-width: 7rem;
+}
+
+.block {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0 0;
+    background-color: grey;
+}
+
+.name-block {
+    position: relative;
+    top: 120px;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    margin: auto;
+    width: 400px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0 0;
+    background-color: grey;
+}
+
+.semi {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
