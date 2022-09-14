@@ -1,4 +1,7 @@
 # sexism.cc
 Source code for my website sexism.cc
 # coming soon/errors
-1. better mobile support since currently the css is incorrect on mobile
+none
+
+## changelog
+14/09/22: fixed mobile issues changed design completly for a cleaner more modern kinda design
